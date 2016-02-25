@@ -49,10 +49,20 @@
      <Compile Include="Assets\OSPNative\editor\ONSPReflectionCustomGUI.cs" />
      <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
-     <Compile Include="Assets\Packages\JSON\Editor\JSONChecker.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\CardboardAudioListenerEditor.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\CardboardAudioRoomEditor.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\CardboardAudioSourceEditor.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\CardboardEditor.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\CardboardMenu.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\CardboardSetup.cs" />
+     <Compile Include="Assets\Packages\Cardboard\Editor\StereoControllerEditor.cs" />
+     <Compile Include="Assets\SocketIO\JSONObject\Editor\JSONChecker.cs" />
+     <None Include="Assets\SocketIO\JSONObject\readme.txt" />
+     <None Include="Assets\Packages\Cardboard\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\Packages\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Plugins\Android\assets\placeholder.txt" />
-     <None Include="Assets\Packages\JSON\readme.txt" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\Packages\Cardboard\Resources\UnlitTexture.shader" />
      <None Include="Assets\Crossfader_GearVR\Shaders\Backface Bumped Diffuse.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\DepthOfField.shader" />
@@ -62,12 +72,16 @@
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.shader" />
+     <None Include="Assets\SocketIO\Readme.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.cginc" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGrading.shader" />
+     <None Include="Assets\Packages\Cardboard\Resources\UI\CardboardReticleShader.shader" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\MedianFilter.shader" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\BokehSplatting.shader" />
-     <None Include="Assets\Packages\JSON Tests\TroubleShoot.txt" />
+     <None Include="Assets\Packages\Cardboard\Resources\SolidColor.shader" />
      <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\Histogram.compute" />
+     <None Include="Assets\readme.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/Brian/Google Drive/Unity/Crossfader/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
